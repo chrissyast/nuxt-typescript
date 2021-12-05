@@ -11,6 +11,11 @@ import Vue from 'vue'
 import MyComponent from '~/components/MyComponent.vue'
 
 export default Vue.extend({
-  components: { MyComponent }
+  components: { MyComponent },
+  methods: {
+    foo () {
+      const foo = "bar";
+    }
+  }
 })
 </script>
